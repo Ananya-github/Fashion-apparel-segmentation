@@ -21,4 +21,11 @@ Stage2: In the second stage, the network predicts bounding boxes and object clas
 
 Faster R-CNN predicts object class and bounding boxes. Mask R-CNN is an extension of Faster R-CNN with additional branch for predicting segmentation masks on each Region of Interest (RoI).In the second stage of Faster R-CNN, RoI pool is replaced by RoIAlign which helps to preserve spatial information which gets misaligned in case of RoI pool. RoIAlign uses binary interpolation to create a feature map that is of fixed size for e.g. 7 x 7. The output from RoIAlign layer is then fed into Mask head, which consists of two convolution layers. It generates mask for each RoI, thus segmenting an image in pixel-to-pixel manner.
 
-3rd model Hybrid Cascade
+3rd model Hybrid Task Cascade
+
+
+4th model Deepmac:
+
+The idea of DeepMAC is based on MASK R-CNN. DeepMAC has shown significant performance improvement in creating instance masks of unknown objects. There are some differences between previous study like following:
+1.Deeper and hourglass network as mask-heads.
+2.Train late stage networks using not proposals of RPN but ground truth.

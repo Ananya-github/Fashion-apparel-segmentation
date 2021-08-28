@@ -2,7 +2,7 @@
 
 Visual analysis of clothing is a topic that has received increasing attention in recent years. Being able to recognize apparel products and associated attributes from pictures could enhance the shopping experience for consumers, and increase work efficiency for fashion professionals.The goal of introducing a novel fine-grained segmentation task is joining forces between the fashion and computer vision communities. The proposed task unifies both categorization and segmentation of rich and complete apparel attributes, an important step toward real-world applications.
 
-Object Instance Segmentation is a recent approach that gives us best of both worlds. It integrates object detection task where the goal is to detect object class along with bounding box prediction in an image and semantic segmentation task, which classifies each pixel into pre-defined categories Thus, it enables us to detect objects in an image while precisely segmenting a mask for each object instance.
+Object Instance Segmentation is an approach that gives us best of both worlds. It integrates object detection task where the goal is to detect object class along with bounding box prediction in an image and semantic segmentation task, which classifies each pixel into pre-defined categories Thus, it enables us to detect objects in an image while precisely segmenting a mask for each object instance.
 Segmentation not only requires discrimination at pixel level but also a mechanism to project the discriminative features learnt at different stages of the encoder onto the pixel space.
 
 1st model UNet:

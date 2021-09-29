@@ -26,3 +26,8 @@ Faster R-CNN predicts object class and bounding boxes. Mask R-CNN is an extensio
 The idea of DeepMAC is based on MASK R-CNN. DeepMAC has shown significant performance improvement in creating instance masks of unknown objects. There are some differences between previous study like following:
 1.Deeper and hourglass network as mask-heads.
 2.Train late stage networks using not proposals of RPN but ground truth.
+
+Output
+
+![model_output](https://github.com/Ananya-github/Fashion-apparel-segmentation//blob/main/model_result.PNG?raw=true)
+
